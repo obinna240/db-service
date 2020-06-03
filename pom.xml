@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.brownbag.news</groupId>
     <artifactId>db-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>db-service</name>
     <description>brownbag dbservice</description>
 
