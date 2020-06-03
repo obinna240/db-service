@@ -3,8 +3,10 @@ package com.brownbag.news.dbservice.bootstrap;
 import com.brownbag.news.dbservice.model.NewsNetwork;
 import com.brownbag.news.dbservice.repository.NewsRepository;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
+@Profile("prodmysql")
 @Component
 public class DbServiceRunner implements CommandLineRunner {
 
